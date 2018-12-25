@@ -1,0 +1,17 @@
+{
+    "name": "node-auth-app",
+    "version": "1.0.0",
+    "description": "A nodejs authentication app using typescript",
+    "main": "server.js",
+    "scripts": {
+        "build": "rm -rf dist/ ; tsc",
+        "start": "nodemon --exec 'npm run build ; node dist/*'"
+    },
+    "author": "Umamaheswararao Meka",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.16.0",
+        "express": "^4.16.4",
+        "nodemon": "^1.18.9"
+    }
+}
